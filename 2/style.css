@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   width: 95%;
+    margin: 0 auto;
+}
+
+body{
+    background: #eac9d9;
+}
+.hero{
+    position: relative;
+    height: 90vh;
+    background: url("img/img.png") center/cover no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_group{
+
+}
+.hero h1{
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: #412f35;
+    font-size: 40px;
+
+}
+.hero h2{
+    font-family: "Italianno", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
